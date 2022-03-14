@@ -1,0 +1,46 @@
+
+.header{
+    background-color:rgb(129, 52, 69);
+    width: 80%;
+    padding: 0;
+    margin: 0 auto;
+    min-height: 80px;
+    display: flex;
+    margin: 30px auto;
+    overflow: hidden;
+    position: sticky;
+    padding-left: 30px;
+    padding-right: 20px;
+    justify-content: space-between;
+  
+}
+.logo{
+    text-decoration: none;
+    text-transform: uppercase;
+  text-align: center;
+  color: white;
+  
+}
+.list_items{
+    display: flex;
+ 
+}
+.list_items ul li{
+   list-style: none;
+   display: inline-block;
+   font-size: 18px;
+   margin-top: 10px;
+  
+}
+.list_items a{
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    
+}
+.list_items a:hover{
+    color: rgb(87, 165, 42);
+
+   
+}

@@ -1,0 +1,62 @@
+.home{
+    padding-top: 10px;
+    background-color: aquamarine;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 350px;
+    height: 350px;
+   margin: 40px auto;
+   
+   overflow: hidden;
+   background-color: bisque;
+}
+
+.dress-image{
+    width:100%;
+     min-height: 100px;
+     min-width: 200px;
+     padding: 20px;
+    padding-left: 60px;
+     display: block;
+     /* object-fit: cover; */
+ }
+
+.dress-name{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20%;
+}
+.dress-price{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20%;
+}
+.addbutton{
+   
+    cursor: pointer;
+    background-color: rgb(240, 233, 247);
+    padding: 5px 5px;
+    margin-left: 15px;
+    width: 90%;
+    font-size: large;
+    font-weight: 500;
+    color: rgb(148, 40, 40);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.addbutton a:hover{
+    background-color: blue;
+}
+.addbutton:active{
+    transform: translateY(5px);
+}
